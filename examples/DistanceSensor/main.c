@@ -61,15 +61,14 @@ int main(void) {
     /* Initialize PD2 GPIO to read analog voltage OUT pin of sensor */
     GPIOConfig_t PD2Config = {PIN_D2, NONE, false, true, 8, true};
 	
-	/* Initialize PF2 for on-board blue LED */
-	GPIOConfig_t PF2Config = {PIN_F2, PULL_DOWN, true, false, 0, false};
-	
-	/*Initialize PF3 for on-board green LED */
-	GPIOConfig_t PF3Config = {PIN_F3, PULL_DOWN, true, false, 0, false};
+		/* Initialize PF2 for on-board blue LED */
+		GPIOConfig_t PF2Config = {PIN_F2, PULL_DOWN, true, false, 0, false};
+		
+		/*Initialize PF3 for on-board green LED */
+		GPIOConfig_t PF3Config = {PIN_F3, PULL_DOWN, true, false, 0, false};
 	
 		/* Initialize GPIO pins */
-    	GPIOInit(PD2Config);
-		GPIOInit(PA7Config);
+    GPIOInit(PD2Config);
 		GPIOInit(PF2Config);
 		GPIOInit(PF3Config);
 		

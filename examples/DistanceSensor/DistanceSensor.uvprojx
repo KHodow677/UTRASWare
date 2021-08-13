@@ -409,11 +409,6 @@
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
-              <FileName>ADC.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\lib\ADC\ADC.c</FilePath>
-            </File>
-            <File>
               <FileName>DistanceSensor.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\lib\DistanceSensor\DistanceSensor.c</FilePath>
@@ -422,6 +417,11 @@
               <FileName>Switch.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\lib\Switch\Switch.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\lib\ADC\ADC.c</FilePath>
             </File>
           </Files>
         </Group>
